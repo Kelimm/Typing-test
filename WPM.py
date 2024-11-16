@@ -5,10 +5,17 @@ import time
 def main(stdscr):
  
   sentences = [
-    
-    "Good"
+    "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the alphabet.",
+    "Typing regularly improves speed and accuracy. Consistent practice is key to mastering typing skills.",
+    "A day without laughter is a day wasted. Laughter is the best medicine for a healthy life.",
+    "Practice makes perfect, especially in typing. The more you type, the faster and more accurate you become.",
+    "Typing fast is an advantage, but accuracy is key. It's important to balance speed with precision.",
+    "Mastering typing can help you write documents efficiently. This skill is valuable in many professional fields.",
+    "Typing skills are useful in many professions. From programming to journalism, good typing can boost productivity.",
+    "Interactive tools can help you learn typing faster. Games and exercises make learning fun and engaging.",
+    "Typing games can make learning fun and engaging. They provide a playful way to improve your skills.",
+    "Good typing skills can boost your productivity. They allow you to complete tasks quickly and accurately."
 ]
-
 
   
   # Initialize colors
