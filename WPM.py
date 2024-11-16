@@ -6,7 +6,7 @@ def main(stdscr):
  
   sentences = [
     
-    "Good typing skills can boost your productivity. They allow you to complete tasks quickly and accurately."
+    "Good"
 ]
 
 
@@ -50,6 +50,7 @@ def main(stdscr):
             row, col = divmod(cp,width)
             stdscr.addstr(row + 1 , col, sentence[cp]) # Correct the character
             stdscr.move(row + 1, col)
+            writing = writing[:-1]
     else:
       if cp < len(sentence) :
           row, col = divmod(cp, width)
@@ -60,6 +61,7 @@ def main(stdscr):
               
           else:
               stdscr.addstr(row + 1, col, chr(key), curses.color_pair(2))
+              writing += chr(key)
           cp += 1
       
     # Calculate WPM
